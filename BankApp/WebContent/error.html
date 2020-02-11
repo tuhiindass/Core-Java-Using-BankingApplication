@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: #666;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+</style>
+</head>
+<body>
+<header>
+  <h2>SWISS BANK</h2>
+</header>
+<body bgcolor="#7FE8F1 ">
+<form  action="Login">
+<table width="20%" bgcolor="0099CC" align="center">
+
+<tr>
+<td colspan=2><center><font size=4><b><font color="red"> Error Login Page</b></font></center></td><br/><br/><br/><br/>
+</tr>
+
+<tr>
+<td>Username:</td>
+<td><input type="text" size=25 name="custid" required="required"></td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input type="Password" size=25 name="pwd" required="required"></td>
+</tr>
+
+<tr>
+<td ><input type="Reset"></td>
+<td><input type="submit" onclick="return check(this.form)" value="Login"></td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>
